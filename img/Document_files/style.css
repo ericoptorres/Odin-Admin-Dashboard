@@ -53,8 +53,7 @@
 .header{
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    padding-top: 15px;
+    padding: 20px;
     gap: 20px;
 }
 
@@ -62,34 +61,29 @@
     display: flex;
     justify-content: space-between;
     height: 50px;
-    gap: 20px;
-    align-items: center;
+    gap: 10px;
 
 }
 
-.bar{
+.search-board{
     flex: 1;
-    background-color: #cce0ed;
-    border-radius: 40px;
-    border: 0;
-    height: 60%;
-    
 }
 
-.space{
-    width: 60px;
+.profile-itens{
+    display: flex;
+    gap: 10px;
 }
 
 .profile-name{
-    font-size: 110%;
-    font-weight: 600;
-    
+    font-size: 130%;
+    font-weight: bold;
+    align-self: center;
 }
 
 .profile-image{
     border-radius: 50%;
     background-color: #0e6de9;
-    
+    align-self: center;
 }
 
 img{
@@ -98,9 +92,9 @@ img{
 }
 
 .icon{
-    max-width: 50%;
-    max-height: 50%;
-    
+    max-width: 70%;
+    max-height: 70%;
+    align-self: center;
 }
 
 
@@ -113,19 +107,7 @@ img{
 
 .to-left{
     display: flex;
-    align-items: center;
     gap: 10px;
-}
-
-.hi{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.hi p{
-    font-size: 75%;
-    font-weight: 700;
 }
 
 .to-right{
@@ -137,24 +119,21 @@ img{
 
 button {
     background-color: #0e6de9;
-    border-radius: 20px;
+    border-radius: 45%;
     color: white;
-    width: 80px;
-    height: 30px;
+    width: 75px;
+    height: 40px;
     border: 0;
-    font-weight: 700;
-    font-size: 75%;
 }
 
 
 .main-content{
-    padding: 25px;
-    padding-bottom: 50px;
-    background-color: #cce0ed;
+    padding: 10px;
+    background-color: #d4d4d4;
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 
 .board{
@@ -164,38 +143,11 @@ button {
 .projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 18px;
+    gap: 10px;
 }
 
 .box{
     padding: 10px;
-    border-radius: 5%;
-    font-size: 70%;
-    display: flex;
-    flex-direction: column;
-    color: rgb(167, 158, 158);
-    font-weight: 700;
-}
-
-.box h4{
-    color: black;
-}
-
-.box .expand{
-    flex: 1;
-}
-
-.icons-box{
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    gap: 5px;
-    height: 20px;
-}
-
-.icons-box .icon{
-    color: rgb(130, 35, 35);
 }
 
 
@@ -205,31 +157,6 @@ button {
     background-color: white;
 }
 
-
-.trending-article{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    gap: 15px;
-    font-size: ;
-}
-
-.hi h5{
-    color: black;
-}
-
-
 .shadow{
-    box-shadow: 2px 2px 4px #888;
+    box-shadow: 5px 5px 5px red;
 }
-
-.shadow-inset{
-    box-shadow: inset 0 -2px 4px #999;
-}
-
-.distance{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
